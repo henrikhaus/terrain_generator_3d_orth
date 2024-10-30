@@ -202,7 +202,7 @@ async fn texture_draw(texture: &Texture2D, offset_x: f32, offset_y: f32, zoom: f
     DrawTextureParams {
       dest_size: Some(vec2(TEXTURE_SIZE * PIXEL_SIZE as f32 * zoom, TEXTURE_SIZE * PIXEL_SIZE as f32 * zoom * skew)),
       source: Some(Rect::new(
-        0.0, 0.0, // Start at (0,0) of the texture image
+        0.0, 0.0,
         texture.width(),
         texture.height(),
       )),
