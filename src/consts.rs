@@ -7,7 +7,7 @@ const SKEW_START: f32 = 0.5;
 const Z_HEIGHT_START: f32 = 2.5;
 const HEIGHT_LEVELS: usize = 120;
 const ELEVATION: f32 = 0.3;
-const TEXTURE_COORDS: (f32, f32) = (250.0, 250.0);
+const TEXTURE_COORDS: (f32, f32) = (200.0, 200.0);
 const TEXTURE_SIZE: f32 = 0.3;
 
 //Noise
